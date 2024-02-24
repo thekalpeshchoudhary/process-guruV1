@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+layer base {
+
+    ul,
+    ol {
+        list-style: revert;
+    }
+}
+
+:focus-visible {
+    outline: none;
+}
+
+html {
+    font-family: var(--font-customfont) !important;
+}
+
+:root {
+    font-family: var(--font-customfont) !important;
+}
