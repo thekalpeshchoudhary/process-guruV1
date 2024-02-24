@@ -12,4 +12,4 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This can use a pdf, read it's content and send it over to open AI and summurize it
+This can use a pdf, read it's content and send it over to open AI and give a summary
