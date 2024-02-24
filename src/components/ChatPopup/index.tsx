@@ -92,7 +92,7 @@ export default function ChatPopup() {
   };
 
   const getAnAnswer = async (query: string) => {
-    const res = await fetch('/api/hello', {
+    const res = await fetch('/api/generateAnswer', {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
