@@ -27,6 +27,7 @@ export default async function handler(
       options
     );
     let pdfData = '';
+
     data.pages.forEach((eachPage) => {
       eachPage.content.forEach((eachContent) => {
         pdfData += eachContent.str;
