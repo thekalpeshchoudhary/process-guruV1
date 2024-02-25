@@ -131,6 +131,7 @@ export default function ChatPopup() {
             className="h-[40rem] rounded-2xl border border-gray-200 w-[30rem] flex flex-col"
             style={{
               backdropFilter: 'blur(30px)',
+              backgroundColor: 'rgb(71 56 56 / 50%)',
             }}
           >
             <div

@@ -10,16 +10,8 @@
     "paths": {
       "@utils/*": ["src/utils/*"],
       "@components/*": ["src/components/*"],
-      // "@datatypes/*": ["src/datatypes/*"],
       "@styles/*": ["styles/*"],
       "@public/*": ["public/*"],
-      // "@hooks/*": ["src/hooks/*"],
-      // "@stories/*": ["src/stories/*"],
-      // "@staticData/*": ["src/staticData/*"],
-      // "@network/*": ["src/network/*"],
-      // "@redux/*": ["src/redux/*"],
-      // "@config/*": ["src/config/*"],
-      // "@i18n": ["./i18n"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,

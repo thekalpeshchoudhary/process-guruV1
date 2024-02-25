@@ -14,13 +14,7 @@ export default function Home() {
         <link rel="icon" href="/images/processGuruLogo.png" />
       </Head>
       <main className="relative">
-        <Image
-          className="z-0 absolute"
-          src="/images/intraNetBg.jpg"
-          width={1366}
-          height={5000}
-          alt="intranet"
-        />
+        {/* <div className="z-0 absolute bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% h-screen w-full"></div> */}
         <ChatPopup />
       </main>
     </>
